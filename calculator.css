@@ -1,0 +1,129 @@
+body {
+    font-family: Arial Narrow;
+    background: rgb(124, 123, 122);
+  }
+
+    
+  #container {
+    height: 800px;
+    width: 600px;
+    margin: 100px auto;
+    background: #d1cccc;
+    box-shadow: 0 0 3px rgba(109, 103, 103, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+  
+  h1 {
+    background: rgb(102, 97, 97);
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 50px 100px;
+    font-size: 28px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  p {
+    font-family: Arial Narrow;
+    padding-left: 0px;
+  }
+
+  form {
+    width: 500px;
+    padding-left: 100px;
+    text-align: left;
+  }
+  
+  form input[type="text"] {
+    width=90px;
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+  
+  #billamt {
+    font-size: 14px;
+    /*color: #2980b9;*/
+    color: #red;
+    background-color: #f7f7f7;
+    width: 60%;
+    padding-left: 80px;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  #billamt:focus {
+    background: #fff;
+    border: 3px solid #dac14c;
+    outline: none;
+  }
+  
+  #peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 100px;
+    color: #907420;
+    background-color: #f7f7f7;
+    font-size: 14px;
+  }
+  
+  .dollarSign {
+    display: inline;
+  }
+  
+  #serviceQual {
+    padding: 10px 10px 11px 11px;
+    font-size: 16px;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #dac14c;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background: #907420;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
